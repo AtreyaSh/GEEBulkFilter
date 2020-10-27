@@ -1,6 +1,6 @@
 # gee-landsat-filter
 
-This project summarizes code in the Google Earth Engine API in order to bulk filter and export remote sensing data. These methods have been used in the following paper/thesis (https://github.com/atreyasha/remoteSensingThesis):
+This project summarizes code in the Google Earth Engine API in order to bulk filter and export remote sensing data. These methods have been used in the following paper/thesis (https://github.com/atreyasha/remote-sensing-thesis):
 
 1. `geeBulkFilter.js` essentially imports a Landsat ImageCollection object and then conducts spatial and temporal filters. Next, it also clears clouds, cloud-shadows, water, snow and low illumination areas due to terrain-related shadows. Reprojection is also involved due to differing coordinate reference systems of datasets. Finally, an export function saves the filtered images onto Google Drive.
 
